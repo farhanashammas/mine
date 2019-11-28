@@ -24,7 +24,7 @@ var nav = [
     { link: '/books/addbook', title: "Add Book" }
 ];
 
-mongoose.connect("mongodb+srv://unniDb:unni123@cluster0-3h7qw.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://farhana:faru#007@cluster0-babfr.mongodb.net/test?retryWrites=true&w=majority");
 var db=mongoose.connection;
 db.on('error',(er)=>{
   console.log(er)
